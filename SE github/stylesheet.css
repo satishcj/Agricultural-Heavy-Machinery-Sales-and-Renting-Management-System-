@@ -4,6 +4,8 @@ body
 	padding: 0;
 	background: url(http://st.gde-fon.com/wallpapers_original/405598_pole_lavanda_nebo_vyderzhka_2048x1365_www.Gde-Fon.com.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: sans-serif;
 }
 .loginbox
@@ -13,12 +15,13 @@ body
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 450px;
-	height: 520px;
+	height: 560px;
 	padding: 60px 20px; 
 	box-sizing: border-box;
 	background: rgba(0,0,0,.5);
 	transition: 2s ;
 	border-radius: 15px;
+	margin-top: 50px;
 
 }
 .loginbox:hover
@@ -52,18 +55,12 @@ h2
 
 }
 
-.loginbox input[type="password"]
+.loginbox input
 {
 	border: none;
 	border-bottom: 1px solid #fff;
 	background: transparent;
 
-}
-.loginbox input[type="text"]
-{
-	border: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
 }
 .loginbox input[type="submit"]
 {
@@ -96,4 +93,13 @@ h2
 .loginbox h
 {
 	color: #fff;
+}
+.loginbox a
+{
+	color: #fff;
+}
+
+.form-group
+{
+	margin: 25px;
 }
