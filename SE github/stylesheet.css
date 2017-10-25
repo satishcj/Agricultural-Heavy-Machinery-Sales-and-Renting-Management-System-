@@ -1,0 +1,99 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(http://st.gde-fon.com/wallpapers_original/405598_pole_lavanda_nebo_vyderzhka_2048x1365_www.Gde-Fon.com.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginbox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 520px;
+	padding: 60px 20px; 
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	transition: 2s ;
+	border-radius: 15px;
+
+}
+.loginbox:hover
+{
+	background: rgba(0,0,0,.9);
+}
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #ffffff;
+	text-align: center;
+
+}
+.loginbox input
+{
+	width: 50%;
+	color: #ffffff;
+	margin-bottom: 20px: 
+
+}
+
+.loginbox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+
+}
+.loginbox input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+}
+.loginbox input[type="submit"]
+{
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 180px;
+	color: #fff;
+	padding: 2px;
+	font-size: 16px;
+	background: #1560bd;
+	cursor: pointer;
+	border-radius: 20px;
+
+	
+}
+.loginbox input[type="submit"]:hover
+{
+ 	background: #528ff2;
+ 	color: 2626226;
+}
+.loginbox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginbox h
+{
+	color: #fff;
+}
